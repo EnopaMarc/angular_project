@@ -1,0 +1,132 @@
+/* CSS for the component */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0a0a23;
+  color: #fff;
+}
+
+header {
+  background-color: #02084c;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav .get-it-now {
+  background-color: #fff;
+  color: #02084c;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #02084c;
+}
+
+.hero .content {
+  max-width: 50%;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.hero form input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.hero form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5a67d8;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hero .image {
+  position: relative;
+  max-width: 50%;
+}
+
+.hero .image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.notification {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.order-successful {
+  top: 10%;
+  left: 10%;
+}
+
+.gift {
+  bottom: 10%;
+  right: 10%;
+}
+
+.content{
+  color: #fff;
+}
+header ul li a.active{
+  color: #5a67d8;
+
+}
+.logo{
+  width: 200px;
+}

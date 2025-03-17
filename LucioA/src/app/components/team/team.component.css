@@ -1,0 +1,52 @@
+.team-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.team-header {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.team-subheader {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  border-color: black;
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+
+}
+
+.team-member h3 {
+  font-size: 1.2em;
+  margin: 10px 0 5px;
+}
+
+.team-member p {
+  font-size: 1em;
+  color: #999;
+}
+.features-badge {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #6c63ff;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}

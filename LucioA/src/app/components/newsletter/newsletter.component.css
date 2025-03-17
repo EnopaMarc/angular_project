@@ -1,0 +1,29 @@
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #002366; /* Bleu foncé comme sur l'image */
+  padding: 20px;
+  height: 200px;
+}
+
+.stat-item {
+  text-align: center;
+  color: white;
+}
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.stat-text h2 {
+  font-size: 36px;
+  margin: 0;
+  padding: 40px;
+}
+
+.stat-text p {
+  font-size: 18px;
+  margin: -20%;
+  padding: -10%;
+}

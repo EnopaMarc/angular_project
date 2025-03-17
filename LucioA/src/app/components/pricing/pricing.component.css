@@ -1,0 +1,93 @@
+.pricing-container {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f5f7fa;
+}
+
+.pricing-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.pricing-description {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #6c757d;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.pricing-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  width: 300px;
+  text-align: left;
+}
+
+.pricing-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.pricing-card p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #6c757d;
+}
+
+.price {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.price span {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.pricing-card ul li {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.pricing-card ul li::before {
+  content: '✔';
+  color: #6c63ff;
+  margin-right: 0.5rem;
+}
+
+.pricing-card button {
+  background-color: #001f3f;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.pricing-card button:hover {
+  background-color: #001a35;
+}
+
+.features-badge {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #6c63ff;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}

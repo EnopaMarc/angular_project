@@ -1,0 +1,85 @@
+/* Style général pour le footer */
+.footer-container {
+  background-color: #f9f9f9;       /* Fond clair */
+  border-top: 1px solid #ddd;      /* Ligne de séparation en haut */
+  padding: 20px 40px;              /* Espacement interne */
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+/* Zone principale du footer */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Logo */
+.footer-logo img {
+  width: 120px;
+}
+
+/* Navigation */
+.footer-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-nav li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.footer-nav li a:hover {
+  color: #6c63ff;
+}
+
+/* Réseaux sociaux */
+.footer-social a {
+  margin: 0 10px;
+}
+
+.footer-social img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Zone inférieure du footer */
+.footer-bottom {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-bottom p {
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Bouton "Scroll to top" */
+.scroll-top {
+  background-color: #6c63ff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 100%;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.scroll-top:hover {
+  background-color: #555;
+}
+.image{
+  width: 40px;
+}
